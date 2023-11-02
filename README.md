@@ -29,17 +29,11 @@ Given several images located in the "images" folder, each capturing a white page
 ### Task 2
 To further evaluate the performance of your algorithm for Task 1.2 and 1.3, you should implement a metric to measure the quality of the binary mask and character counting results. The metric should provide quantitative feedback on how accurately your algorithm accomplishes these tasks. Please explain the chosen metric and include it in your code for each task.
 
-## Instructions for Each Task
-For each task, you should create Python functions to complete the assigned challenge. Ensure that your code is well-documented, follows best coding practices, and is easy to understand. You can use any Python libraries or tools that you prefer for these tasks.
-
-In your script, please provide a brief explanation of your algorithm and methodology used to solve the problem. You should be prepared to discuss your code and the underlying algorithms during the explanation session.
-
-## Evaluation and Performance
-To evaluate the performance of your algorithm for Task 1.2 and 1.3, consider using metrics such as Intersection over Union (IoU) for the binary mask and character recognition accuracy for counting. These metrics can help quantify the accuracy of your results.
-
 ## Repository Structure
 The repository structure contains an "images" folder with sample images to be used for Task 1. Please refer to these images as needed in your Python code.
 
-Feel free to reach out if you encounter any issues or have any questions during the interview.
+## Requirements
+To ensure compatibility, you can install the necessary Python libraries by running the following command:
 
-Best of luck with your coding interview!
+```shell
+pip install -r requirements.txt
