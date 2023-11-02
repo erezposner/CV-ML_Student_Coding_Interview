@@ -24,6 +24,9 @@ Given several images located in the "images" folder, each capturing a white page
 
 1.1. Load the images and preprocess them as you see fit.  
 1.2. Implement a function to create a binary mask where all pixels belonging to the white page are set to 255 (white) and all pixels belonging to the text or characters are set to 0 (black).  
+
+> **Note:** Task 1.3 depends on the completion of Task 1.2. However, you can proceed to Task 2 and include a metric for Task 1.2.
+
 1.3. Develop a function that, given a binary mask, counts the number of letters or characters present.
 
 ### Task 2
