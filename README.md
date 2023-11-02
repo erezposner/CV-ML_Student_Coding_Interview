@@ -17,20 +17,20 @@ Before you begin, please make sure to follow these steps:
 - **Language:** Python
 
 ## Interview Tasks
-You will be tasked with solving the following computer vision challenges:
+You will be tasked with solving the following computer vision challenges, each implemented within separate functions:
 
 ### Task 1
-Given several images located in the "images" folder, each capturing a white page with text written in marker, you are required to write a Python code that accomplishes the following tasks:
+Given several images located in the "images" folder, each capturing a white page with text written in marker, you are required to write a Python code that accomplishes the following tasks, each within separate functions:
 
 1.1. Load the images and preprocess them as you see fit.  
-1.2. Implement an algorithm to create a binary mask where all pixels belonging to the white page are set to 255 (white) and all pixels belonging to the text or characters are set to 0 (black).  
-1.3. Develop an algorithm that, given a binary mask, counts the number of letters or characters present.
+1.2. Implement a function to create a binary mask where all pixels belonging to the white page are set to 255 (white) and all pixels belonging to the text or characters are set to 0 (black).  
+1.3. Develop a function that, given a binary mask, counts the number of letters or characters present.
 
 ### Task 2
 To further evaluate the performance of your algorithm for Task 1.2 and 1.3, you should implement a metric to measure the quality of the binary mask and character counting results. The metric should provide quantitative feedback on how accurately your algorithm accomplishes these tasks. Please explain the chosen metric and include it in your code for each task.
 
 ## Instructions for Each Task
-For each task, you should create a Python script to complete the assigned challenge. Ensure that your code is well-documented, follows best coding practices, and is easy to understand. You can use any Python libraries or tools that you prefer for these tasks.
+For each task, you should create Python functions to complete the assigned challenge. Ensure that your code is well-documented, follows best coding practices, and is easy to understand. You can use any Python libraries or tools that you prefer for these tasks.
 
 In your script, please provide a brief explanation of your algorithm and methodology used to solve the problem. You should be prepared to discuss your code and the underlying algorithms during the explanation session.
 
