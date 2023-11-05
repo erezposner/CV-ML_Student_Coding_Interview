@@ -14,6 +14,7 @@ You must have your own computer with an active internet connection. Ensure you h
 You will need specific Python libraries for the interview. These libraries will be listed in a file named requirements.txt. To install them:
 ```shell
 pip install -r requirements.txt
+```
 ### Integrated Development Environment (IDE)
 Choose your preferred IDE, but have one ready for the interview. Ensure it's configured for Python development.
 
