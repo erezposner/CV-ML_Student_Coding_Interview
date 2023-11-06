@@ -45,7 +45,7 @@ Given several images located in the "images" folder, each capturing a white page
 1.3. Develop a function that, given a binary mask, counts the number of letters and characters present.
 
 ### Task 2
-To further evaluate the performance of your algorithm for Task 1.2 and 1.3, you should implement a metric to measure the quality of the binary mask and character counting results. The metric should provide quantitative feedback on how accurately your algorithm accomplishes these tasks. Please explain the chosen metric and include it in your code for each task.
+To further evaluate the performance of your algorithm for Tasks 1.2 and 1.3, you should implement a metric to measure the quality of the binary mask and character counting results. The metric should provide quantitative feedback on how accurately your algorithm accomplishes these tasks. Please explain the chosen metric and include it in your code for each task.
 
 ## Repository Structure
 The repository structure contains an "images" folder with sample images to be used for Task 1. Please refer to these images as needed in your Python code.
