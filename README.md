@@ -32,22 +32,25 @@ Before you begin, please make sure to follow these steps:
 - **Language:** Python
 
 ## Interview Tasks
-You will be tasked with solving the following computer vision challenges, each implemented within separate functions:
+You will be tasked with solving the following computer vision challenges, each implemented within separate functions. We recommand that you carfully read all of the tasks instructions and the description of the data below.
+
+### Data 
+The data to be used is in the "images" folder, containing numerous images of the **same** white paper with text and characters. These images were taken from various angles and lighting conditions, showcasing the paper in different states—folded and slightly corrupted.
 
 ### Task 1
-Given several images located in the "images" folder, each capturing a white page with text written in marker, you are required to write a Python code that accomplishes the following tasks, each within separate functions:
+Given several images (located in the "images" folder), each capturing a white page with text and characters written in marker, you are required to write a Python code that accomplishes the following tasks, each within separate functions:
 
 1.1. Load the images and preprocess them as you see fit.  
-1.2. Implement a function to create a binary mask where all pixels belonging to the white page are set to 255 (white) and all pixels belonging to the text or characters are set to 0 (black).  
+1.2. Implement a function that receives an image and creates a binary mask where all pixels belonging to the white page are set to 255 (white) and all pixels belonging to the text or characters are set to 0 (black).  
 
 > **Note:** Task 1.3 depends on the completion of Task 1.2. However, you can proceed to Task 2 and include a metric for Task 1.2.
 
 1.3. Develop a function that, given a binary mask, counts the number of letters and characters present.
 
 ### Task 2
-To further evaluate the performance of your algorithm for Task 1.2 and 1.3, you should implement a metric to measure the quality of the binary mask and character counting results. The metric should provide quantitative feedback on how accurately your algorithm accomplishes these tasks. Please explain the chosen metric and include it in your code for each task.
+To further evaluate the performance of your algorithm for Tasks 1.2 and 1.3, you should implement metrics to measure the quality of the binary mask and character counting results. The metrics should provide quantitative feedback on how accurately your algorithm accomplishes these tasks over all images. Please explain the chosen metrics and include it in your code for each task.
 
 ## Repository Structure
-The repository structure contains an "images" folder with sample images to be used for Task 1. Please refer to these images as needed in your Python code.
+The repository structure contains an "images" folder with sample images to be used for Task 1 and Task 2. Please refer to these images as needed in your Python code.
 
 
