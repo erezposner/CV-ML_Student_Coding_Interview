@@ -24,7 +24,7 @@ Popular IDEs include Visual Studio Code, PyCharm, and Jupyter Notebook (for data
 Before you begin, please make sure to follow these steps:
 
 1. **Clone** this GitLab repository to your local environment.
-2. Create a **new branch** in the repository to work on the interview tasks. Name the branch in the format of `{firstname_lastname}`.
+2. Create a **new branch** in the repository to work on the interview tasks. Name the branch in the format of `{firstname}_{lastname}`.
 3. **Commit** your code changes to the branch, not the 'main' branch.
 
 ## Interview Details
