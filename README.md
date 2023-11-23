@@ -11,7 +11,7 @@ The interview should be run on your own computer, To prepare for the coding inte
 You must have your own computer with an active internet connection. Ensure you have administrator privileges on your computer. Additionally, this interview project is hosted on a Git repository, so you should have Git installed to clone the project and create a branch for your work.
 
 ### Python Libraries
-You will need specific Python libraries for the interview. These libraries will be listed in a file named requirements.txt. To install them:
+Install Python version >= 3.8. You will need specific Python libraries for the interview. These libraries will be listed in a file named requirements.txt. To install them:
 ```shell
 pip install -r requirements.txt
 ```
